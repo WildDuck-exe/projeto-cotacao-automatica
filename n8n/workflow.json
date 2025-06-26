@@ -1,0 +1,95 @@
+{
+  "name": "Workflow de Cotação Automática com WhatsApp e Servidor MCP",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "whatsapp-webhook",
+        "responseMode": "responseNode"
+      },
+      "id": "webhook-whatsapp-trigger",
+      "name": "Webhook do WhatsApp",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "webhookId": "whatsapp-webhook"
+    },
+    {
+      "parameters": {
+        "url": "{{ $env.MCP_SERVER_URL }}/process_pedido",
+        "httpMethod": "POST",
+        "jsonBody": true,
+        "bodyParameters": [
+          {
+            "name": "pedido",
+            "value": "={{ $json.body.entry[0].changes[0].value.messages[0].text.body }}"
+          }
+        ]
+      },
+      "id": "call-mcp-server",
+      "name": "Chamar Servidor MCP",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Processa o resultado do MCP\nconst mcpResult = $input.first( ).json;\n\n// Formata a resposta para o WhatsApp\nlet formattedResponse = 'Sua cotação:\n';\nif (mcpResult && mcpResult.cotacao && mcpResult.cotacao.length > 0) {\n  mcpResult.cotacao.forEach(item => {\n    formattedResponse += `- ${item.quantidade} ${item.unidade} de ${item.produto}: R$ ${item.preco_unitario.toFixed(2)} (Total: R$ ${item.preco_total.toFixed(2)})\n`;\n  });\n  formattedResponse += `\nTotal Geral: R$ ${mcpResult.total_geral.toFixed(2)}`;\n} else {\n  formattedResponse = 'Não foi possível cotar os itens solicitados. Por favor, tente novamente com mais detalhes.';\n}\n\nreturn { json: { text: formattedResponse } };"
+      },
+      "id": "format-response",
+      "name": "Formatar Resposta para WhatsApp",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json.text, null, 2) }}"
+      },
+      "id": "response-node",
+      "name": "Resposta - Cotação",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [900, 300]
+    }
+  ],
+  "connections": {
+    "Webhook do WhatsApp": {
+      "main": [
+        [
+          {
+            "node": "Chamar Servidor MCP",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chamar Servidor MCP": {
+      "main": [
+        [
+          {
+            "node": "Formatar Resposta para WhatsApp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Formatar Resposta para WhatsApp": {
+      "main": [
+        [
+          {
+            "node": "Resposta - Cotação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "versionId": "1"
+}

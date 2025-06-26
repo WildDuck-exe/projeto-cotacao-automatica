@@ -1,0 +1,463 @@
+{
+  "resumo": {
+    "total_pedidos": 50,
+    "taxa_sucesso_media": 0.63,
+    "tempo_medio": 0.001884627342224121,
+    "tempo_total": 0.09423136711120605,
+    "total_cotacoes": 12014.25,
+    "meta_acuracia_atingida": false,
+    "meta_tempo_atingida": true
+  },
+  "resultados_detalhados": [
+    {
+      "id": 1,
+      "pedido": "pode me cotar 15 unidades de CONECTOR borne, 5 peças de LAMPADA LED 9w e 20 metros de cabo flexível 4",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 2,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.004795074462890625,
+      "total_cotacao": 0
+    },
+    {
+      "id": 2,
+      "pedido": "gostaria de 15 unidades de lampada 15w e 2 rolos de fita eletrica 19mm",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0022666454315185547,
+      "total_cotacao": 290.4
+    },
+    {
+      "id": 3,
+      "pedido": "quero 20 unidades de abraçadeiras plastica",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0014650821685791016,
+      "total_cotacao": 17.0
+    },
+    {
+      "id": 4,
+      "pedido": "preciso de 3 peças de abraçadeira plastica",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 2.5510787963867188e-05,
+      "total_cotacao": 2.55
+    },
+    {
+      "id": 5,
+      "pedido": "preciso de 2 FITA ISOLANTE 19mm",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0012629032135009766,
+      "total_cotacao": 6.9
+    },
+    {
+      "id": 6,
+      "pedido": "me vende 20 peças de CONDULETE 1/2 e 15 m de cabo 2.5",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0016944408416748047,
+      "total_cotacao": 372.0
+    },
+    {
+      "id": 7,
+      "pedido": "pode me cotar 10 unidades de condulete pvc 1/2 e 2 peças de disjuntor bipolar 20a",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.002620697021484375,
+      "total_cotacao": 277.0
+    },
+    {
+      "id": 8,
+      "pedido": "gostaria de 50 unidades de disjuntor bipolar 25a e 15 m de tubo galvanizado",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0027968883514404297,
+      "total_cotacao": 2275.0
+    },
+    {
+      "id": 9,
+      "pedido": "me vende 3 fita preta transparente",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.0015158653259277344,
+      "total_cotacao": 0
+    },
+    {
+      "id": 10,
+      "pedido": "preciso comprar 5 unidades de condulete 1/2",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0010044574737548828,
+      "total_cotacao": 93.0
+    },
+    {
+      "id": 11,
+      "pedido": "quero 30 m de CABO FLEXIVEL 10, 20 peças de CONECTOR sindal e 5 unidades de interuptor duplo",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0033380985260009766,
+      "total_cotacao": 71.25
+    },
+    {
+      "id": 12,
+      "pedido": "pode me cotar 5 peças de lâmpada led 15w, 15 CONECTOR borne e 5 metros de CABO FLEXIVEL 6",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 2,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.002817392349243164,
+      "total_cotacao": 0
+    },
+    {
+      "id": 13,
+      "pedido": "pode me cotar 15 unidades de LAMPADA LED 12w, 50 peças de disjuntor bipolar 16a e 10 m de CABO FLEXIVEL 2.5",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 2,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.0034332275390625,
+      "total_cotacao": 0
+    },
+    {
+      "id": 14,
+      "pedido": "quero 3 rolos de FITA ISOLANTE 19mm, 15 m de tubo pvc galvanizado e 15 abraçadeiras metalica",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.003778219223022461,
+      "total_cotacao": 18.0
+    },
+    {
+      "id": 15,
+      "pedido": "vou precisar de 3 peças de led 20w e 50 metros de eletroduto pvc 3/4",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.001840829849243164,
+      "total_cotacao": 1185.6
+    },
+    {
+      "id": 16,
+      "pedido": "preciso de 20 disjuntor 20a",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 2.002716064453125e-05,
+      "total_cotacao": 578.0
+    },
+    {
+      "id": 17,
+      "pedido": "preciso de 10 peças de abraçadeira plastica e 10 unidades de condulete pvc 3/4",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.001196146011352539,
+      "total_cotacao": 194.5
+    },
+    {
+      "id": 18,
+      "pedido": "vou precisar de 2 peças de abraçadeira inox",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0011620521545410156,
+      "total_cotacao": 2.4
+    },
+    {
+      "id": 19,
+      "pedido": "vou precisar de 10 m de fio 10 e 20 lâmpada led 9w",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.001730203628540039,
+      "total_cotacao": 304.0
+    },
+    {
+      "id": 20,
+      "pedido": "gostaria de 50 unidades de dijuntor 20a, 15 unidades de condulete 3/4 e 50 rolos de fita eletrica transparente",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 2,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.0035851001739501953,
+      "total_cotacao": 0
+    },
+    {
+      "id": 21,
+      "pedido": "quero 10 m de eletroduto galvanizado",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.0013363361358642578,
+      "total_cotacao": 0
+    },
+    {
+      "id": 22,
+      "pedido": "me manda 10 INTERRUPTOR duplo",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 2.002716064453125e-05,
+      "total_cotacao": 142.5
+    },
+    {
+      "id": 23,
+      "pedido": "preciso comprar 3 unidades de CONDULETE 1/2, 25 metros de CABO FLEXIVEL 10 e 20 unidades de abraçadeiras metalica",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0034263134002685547,
+      "total_cotacao": 24.0
+    },
+    {
+      "id": 24,
+      "pedido": "preciso comprar 15 metros de tubo pvc flexivel e 20 peças de tomada industrial",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0024411678314208984,
+      "total_cotacao": 684.0
+    },
+    {
+      "id": 25,
+      "pedido": "gostaria de 20 peças de TOMADA 2p+t e 1 lampada 20w",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0017857551574707031,
+      "total_cotacao": 264.9
+    },
+    {
+      "id": 26,
+      "pedido": "gostaria de 10 peças de condulete 3/4",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.00102996826171875,
+      "total_cotacao": 186.0
+    },
+    {
+      "id": 27,
+      "pedido": "gostaria de 20 unidades de DISJUNTOR 16a",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 2.7179718017578125e-05,
+      "total_cotacao": 910.0
+    },
+    {
+      "id": 28,
+      "pedido": "quero 2 unidades de fita eletrica 19mm",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0013222694396972656,
+      "total_cotacao": 6.9
+    },
+    {
+      "id": 29,
+      "pedido": "pode me cotar 25 metros de cabo 6, 50 unidades de chave paralelo e 10 unidades de ABRAÇADEIRA metalica",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0019736289978027344,
+      "total_cotacao": 12.0
+    },
+    {
+      "id": 30,
+      "pedido": "pode me cotar 5 fita eletrica 19mm e 15 tomada industrial",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.002578258514404297,
+      "total_cotacao": 17.25
+    },
+    {
+      "id": 31,
+      "pedido": "pode me cotar 50 unidades de TOMADA industrial, 25 metros de fio 2.5 e 1 disjuntor bipolar 16a",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0034112930297851562,
+      "total_cotacao": 45.5
+    },
+    {
+      "id": 32,
+      "pedido": "gostaria de 5 unidades de interuptor duplo",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0012028217315673828,
+      "total_cotacao": 71.25
+    },
+    {
+      "id": 33,
+      "pedido": "vou precisar de 50 condulete pvc 3/4 e 5 INTERRUPTOR simples",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0011737346649169922,
+      "total_cotacao": 973.7500000000001
+    },
+    {
+      "id": 34,
+      "pedido": "pode me cotar 15 CONECTOR sindal",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.001138448715209961,
+      "total_cotacao": 0
+    },
+    {
+      "id": 35,
+      "pedido": "preciso de 25 unidades de condulete 1/2 e 25 unidades de lâmpada led 15w",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0020685195922851562,
+      "total_cotacao": 845.0
+    },
+    {
+      "id": 36,
+      "pedido": "me manda 1 peças de INTERRUPTOR simples, 5 m de CABO FLEXIVEL 6 e 10 unidades de lâmpada led 20w",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0030930042266845703,
+      "total_cotacao": 152.0
+    },
+    {
+      "id": 37,
+      "pedido": "quero 20 unidades de CONECTOR borne, 2 peças de tomadas 2p+t e 5 metros de fio 4",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 2,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.0026650428771972656,
+      "total_cotacao": 0
+    },
+    {
+      "id": 38,
+      "pedido": "gostaria de 15 disjuntor bipolar 16a e 10 peças de ABRAÇADEIRA metalica",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0014317035675048828,
+      "total_cotacao": 694.5
+    },
+    {
+      "id": 39,
+      "pedido": "preciso comprar 25 metros de cabo flexível 10, 25 m de tubo pvc pvc 3/4 e 25 unidades de fita preta 19mm",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0031690597534179688,
+      "total_cotacao": 86.25
+    },
+    {
+      "id": 40,
+      "pedido": "me vende 10 unidades de ABRAÇADEIRA plastica",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 2.2649765014648438e-05,
+      "total_cotacao": 8.5
+    },
+    {
+      "id": 41,
+      "pedido": "me manda 3 unidades de conectores sindal",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.0012774467468261719,
+      "total_cotacao": 0
+    },
+    {
+      "id": 42,
+      "pedido": "preciso comprar 5 peças de LAMPADA LED 12w e 25 unidades de conectores sindal",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0023200511932373047,
+      "total_cotacao": 76.0
+    },
+    {
+      "id": 43,
+      "pedido": "quero 10 lampada 12w",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 1.9311904907226562e-05,
+      "total_cotacao": 189.0
+    },
+    {
+      "id": 44,
+      "pedido": "me manda 1 peças de tomadas usb e 100 m de fio 2.5",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.0016446113586425781,
+      "total_cotacao": 67.4
+    },
+    {
+      "id": 45,
+      "pedido": "preciso de 5 unidades de CONDULETE 3/4 e 3 unidades de TOMADA usb",
+      "produtos_identificados": 2,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 0.0009899139404296875,
+      "total_cotacao": 295.20000000000005
+    },
+    {
+      "id": 46,
+      "pedido": "vou precisar de 5 peças de condulete 1/2 e 5 peças de CONECTOR sindal",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.002115488052368164,
+      "total_cotacao": 93.0
+    },
+    {
+      "id": 47,
+      "pedido": "vou precisar de 25 unidades de led 9w",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 0,
+      "taxa_sucesso": 1.0,
+      "tempo_processamento": 2.09808349609375e-05,
+      "total_cotacao": 380.0
+    },
+    {
+      "id": 48,
+      "pedido": "gostaria de 1 unidades de CONECTOR borne e 1 interruptor paralelo",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.002379894256591797,
+      "total_cotacao": 14.25
+    },
+    {
+      "id": 49,
+      "pedido": "quero 20 tomadas industrial, 15 peças de condulete 1/2 e 10 metros de cabo 6",
+      "produtos_identificados": 0,
+      "produtos_nao_identificados": 2,
+      "taxa_sucesso": 0.0,
+      "tempo_processamento": 0.0029289722442626953,
+      "total_cotacao": 0
+    },
+    {
+      "id": 50,
+      "pedido": "quero 3 unidades de FITA ISOLANTE transparente e 10 interuptor simples",
+      "produtos_identificados": 1,
+      "produtos_nao_identificados": 1,
+      "taxa_sucesso": 0.5,
+      "tempo_processamento": 0.00286865234375,
+      "total_cotacao": 87.5
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+id,pedido_original,produtos_esperados
+1,"preciso de 10 metros de cabo eletrico 4mm e 5 disjuntores 2p 32a",[{"codigo":"97889","quantidade":10},{"codigo":"71302","quantidade":5}]
+2,"me ve 2 lampadas led 9w e 1 interruptor simples",[{"codigo":"54321","quantidade":2},{"codigo":"67890","quantidade":1}]
+3,"quanto custa 3 tomadas 10a e 1 fita isolante",[{"codigo":"12345","quantidade":3},{"codigo":"98765","quantidade":1}]
+4,"quero 1 eletroduto 3/4 e 2 caixas 4x2",[{"codigo":"44556","quantidade":1},{"codigo":"77889","quantidade":2}]
+5,"preciso de 4 conectores wago e 1 conector sindal",[{"codigo":"11223","quantidade":4},{"codigo":"33445","quantidade":1}]
+6,"me orca 1 cabo pp 3x2.5 e 1 disjuntor 16a",[{"codigo":"66778","quantidade":1},{"codigo":"99887","quantidade":1}]
+7,"quanto sai 2 lampadas tubular 18w e 1 fita isolante liquida",[{"codigo":"88990","quantidade":2},{"codigo":"10011","quantidade":1}]
+8,"preciso de 3 conectores torcao e 1 eletroduto corrugado 1/2",[{"codigo":"22334","quantidade":3},{"codigo":"55443","quantidade":1}]
+9,"me ve 1 caixa 4x4 e 5 terminais ilhos",[{"codigo":"88776","quantidade":1},{"codigo":"33221","quantidade":5}]
+10,"quero 1 cabo coaxial e 2 disjuntores tripolar 20a",[{"codigo":"66554","quantidade":1},{"codigo":"99001","quantidade":2}]
+
